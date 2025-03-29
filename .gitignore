@@ -1,0 +1,9 @@
+node_modules
+package-lock.json
+.idea
+__pycache__
+docs/
+OpenAI账号注册/
+docker/volumes/
+storage/files/
+storage/logs/

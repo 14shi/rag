@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  postgres:
+    container_name: postgres
+    image: postgres:13
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: vl8jhGRflh6fIeJu
+      POSTGRES_DB: llm_rag
+      POSTGRES_INITDB_ARGS: "--encoding=UTF8 --lc-collate=C --lc-ctype=C"
+      TZ: Asia/Shanghai
+    volumes:
+      - ./volumes/postgres/data:/var/lib/postgresql/data
+    ports:
+      - '5432:5432'
+    restart: always
+
+  redis:
+    container_name: redis
+    image: redis:6.2
+    volumes:
+      - ./volumes/redis/data:/data
+    ports:
+      - '6379:6379'
+    restart: always

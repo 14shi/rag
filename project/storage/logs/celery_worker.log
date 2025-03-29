@@ -1,0 +1,460 @@
+[2024-08-17 12:16:47,213: INFO/MainProcess] Connected to redis://127.0.0.1:6379/0
+[2024-08-17 12:16:47,221: INFO/MainProcess] mingle: searching for neighbors
+[2024-08-17 12:16:48,254: INFO/MainProcess] mingle: all alone
+[2024-08-17 12:16:48,305: INFO/MainProcess] celery@chenhuadeMacBook-Pro.local ready.
+[2024-08-17 12:18:17,544: INFO/MainProcess] Task tasks.dateset_document_split_task.task[7a22c006-6539-4d8c-bd64-2cb33e605c55] received
+[2024-08-17 12:18:18,376: WARNING/ForkPoolWorker-2] exec dateset_document_split_task success.
+[2024-08-17 12:18:18,378: INFO/ForkPoolWorker-2] Task tasks.dateset_document_split_task.task[7a22c006-6539-4d8c-bd64-2cb33e605c55] succeeded in 0.8317799900000011s: None
+[2024-08-17 16:51:28,250: INFO/MainProcess] Connected to redis://127.0.0.1:6379/0
+[2024-08-17 16:51:28,260: INFO/MainProcess] mingle: searching for neighbors
+[2024-08-17 16:51:29,287: INFO/MainProcess] mingle: all alone
+[2024-08-17 16:51:29,349: INFO/MainProcess] celery@chenhuadeMacBook-Pro.local ready.
+[2024-08-17 16:52:09,298: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[9f87be00-9c50-4bfc-b0c5-0393a2bd3a38] received
+[2024-08-17 16:52:09,445: WARNING/ForkPoolWorker-2] 9
+[2024-08-17 16:52:09,471: ERROR/MainProcess] Task handler raised error: WorkerLostError('Worker exited prematurely: exitcode 0 Job: 0.')
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.9/site-packages/billiard/pool.py", line 1264, in mark_as_worker_lost
+    raise WorkerLostError(
+billiard.einfo.ExceptionWithTraceback: 
+"""
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.9/site-packages/billiard/pool.py", line 1264, in mark_as_worker_lost
+    raise WorkerLostError(
+billiard.exceptions.WorkerLostError: Worker exited prematurely: exitcode 0 Job: 0.
+"""
+[2024-08-17 16:53:51,868: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[2ffbdfb5-0e44-4592-805b-42d23c76e3cb] received
+[2024-08-17 16:53:52,012: WARNING/ForkPoolWorker-3] 9
+[2024-08-17 16:53:52,033: ERROR/MainProcess] Task handler raised error: WorkerLostError('Worker exited prematurely: exitcode 0 Job: 1.')
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.9/site-packages/billiard/pool.py", line 1264, in mark_as_worker_lost
+    raise WorkerLostError(
+billiard.einfo.ExceptionWithTraceback: 
+"""
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.9/site-packages/billiard/pool.py", line 1264, in mark_as_worker_lost
+    raise WorkerLostError(
+billiard.exceptions.WorkerLostError: Worker exited prematurely: exitcode 0 Job: 1.
+"""
+[2024-08-17 16:54:45,533: INFO/MainProcess] Connected to redis://127.0.0.1:6379/0
+[2024-08-17 16:54:45,544: INFO/MainProcess] mingle: searching for neighbors
+[2024-08-17 16:54:46,569: INFO/MainProcess] mingle: all alone
+[2024-08-17 16:54:46,613: INFO/MainProcess] celery@chenhuadeMacBook-Pro.local ready.
+[2024-08-17 16:55:18,590: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[c6d7735d-ca66-4761-b8fb-3250be19e9cf] received
+[2024-08-17 16:55:21,967: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 16:55:22,684: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 16:55:23,501: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 16:55:24,324: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 16:55:25,141: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 16:55:25,859: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 16:55:26,527: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 16:55:27,326: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 16:55:28,110: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 16:55:28,320: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 16:55:28,322: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[c6d7735d-ca66-4761-b8fb-3250be19e9cf] succeeded in 9.730075561s: None
+[2024-08-17 17:02:40,442: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[80e3503a-12d1-4f00-84d1-ee7a8623e948] received
+[2024-08-17 17:02:40,444: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[80e3503a-12d1-4f00-84d1-ee7a8623e948] succeeded in 0.0003111289999537803s: None
+[2024-08-17 17:03:20,590: INFO/MainProcess] Connected to redis://127.0.0.1:6379/0
+[2024-08-17 17:03:20,599: INFO/MainProcess] mingle: searching for neighbors
+[2024-08-17 17:03:21,629: INFO/MainProcess] mingle: all alone
+[2024-08-17 17:03:21,675: INFO/MainProcess] celery@chenhuadeMacBook-Pro.local ready.
+[2024-08-17 17:03:29,001: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[66cdf80f-fc80-4337-9c31-3d151574e359] received
+[2024-08-17 17:03:30,323: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 17:03:30,533: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 17:03:30,538: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[66cdf80f-fc80-4337-9c31-3d151574e359] succeeded in 1.5348272220000005s: None
+[2024-08-17 17:40:17,992: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[296e3809-e1ee-4ff4-ae0e-7853ef66c0a5] received
+[2024-08-17 17:40:19,250: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 17:40:19,430: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 17:40:19,431: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[296e3809-e1ee-4ff4-ae0e-7853ef66c0a5] succeeded in 1.436710838000181s: None
+[2024-08-17 17:41:08,385: INFO/MainProcess] Task tasks.dateset_document_split_task.task[3389b3dd-cd8d-46d8-8aaf-8300f43983c8] received
+[2024-08-17 17:41:08,451: WARNING/ForkPoolWorker-2] exec dateset_document_split_task success.
+[2024-08-17 17:41:08,452: INFO/ForkPoolWorker-2] Task tasks.dateset_document_split_task.task[3389b3dd-cd8d-46d8-8aaf-8300f43983c8] succeeded in 0.0647646390002592s: None
+[2024-08-17 17:45:18,290: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[ff22a3a3-825e-4d38-9269-b9b6d74a6f57] received
+[2024-08-17 17:45:29,011: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 17:45:29,728: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 17:45:29,878: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 17:45:29,879: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[ff22a3a3-825e-4d38-9269-b9b6d74a6f57] succeeded in 1.6268249499999001s: None
+[2024-08-17 17:47:39,306: INFO/MainProcess] Task tasks.dateset_document_split_task.task[2f10e36e-f0fa-47ba-b5c9-f942a76d1fdd] received
+[2024-08-17 17:47:39,339: WARNING/ForkPoolWorker-2] exec dateset_document_split_task success.
+[2024-08-17 17:47:39,340: INFO/ForkPoolWorker-2] Task tasks.dateset_document_split_task.task[2f10e36e-f0fa-47ba-b5c9-f942a76d1fdd] succeeded in 0.032465465999848675s: None
+[2024-08-17 17:49:54,892: INFO/MainProcess] Task tasks.dateset_document_split_task.task[e59dcc95-c7af-42d6-bd1b-2cbe881dc977] received
+[2024-08-17 17:49:54,902: WARNING/ForkPoolWorker-2] exec dateset_document_split_task success.
+[2024-08-17 17:49:54,902: INFO/ForkPoolWorker-2] Task tasks.dateset_document_split_task.task[e59dcc95-c7af-42d6-bd1b-2cbe881dc977] succeeded in 0.009307552999871405s: None
+[2024-08-17 17:50:41,632: INFO/MainProcess] Task tasks.dateset_document_split_task.task[af8d7b04-0c58-4078-be95-dfd6be7dae4b] received
+[2024-08-17 17:50:41,645: WARNING/ForkPoolWorker-2] exec dateset_document_split_task success.
+[2024-08-17 17:50:41,646: INFO/ForkPoolWorker-2] Task tasks.dateset_document_split_task.task[af8d7b04-0c58-4078-be95-dfd6be7dae4b] succeeded in 0.012174406000212912s: None
+[2024-08-17 19:09:29,060: INFO/MainProcess] Connected to redis://127.0.0.1:6379/0
+[2024-08-17 19:09:29,080: INFO/MainProcess] mingle: searching for neighbors
+[2024-08-17 19:09:30,130: INFO/MainProcess] mingle: all alone
+[2024-08-17 19:09:30,224: INFO/MainProcess] celery@chenhuadeMacBook-Pro.local ready.
+[2024-08-17 19:11:36,386: INFO/MainProcess] Task tasks.dateset_document_split_task.task[a6875c94-1b41-424a-938e-f8c062b1c006] received
+[2024-08-17 19:11:36,695: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[56c7f8a4-c922-47f0-a54b-2fe6f1793891] received
+[2024-08-17 19:11:36,736: WARNING/ForkPoolWorker-2] exec dateset_document_split_task success.
+[2024-08-17 19:11:36,740: INFO/ForkPoolWorker-2] Task tasks.dateset_document_split_task.task[a6875c94-1b41-424a-938e-f8c062b1c006] succeeded in 0.3516654000000017s: None
+[2024-08-17 19:11:47,566: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:11:48,377: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:11:48,511: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:11:48,512: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[56c7f8a4-c922-47f0-a54b-2fe6f1793891] succeeded in 1.9633519329999842s: None
+[2024-08-17 19:17:53,370: INFO/MainProcess] Task tasks.dateset_document_split_task.task[43b15ad1-6f8d-4fef-814d-363fbc196a87] received
+[2024-08-17 19:17:53,414: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[9c39b3a7-9f1e-4994-bc4b-10657172105b] received
+[2024-08-17 19:17:53,426: WARNING/ForkPoolWorker-2] exec dateset_document_split_task success.
+[2024-08-17 19:17:53,427: INFO/ForkPoolWorker-2] Task tasks.dateset_document_split_task.task[43b15ad1-6f8d-4fef-814d-363fbc196a87] succeeded in 0.05544918099997176s: None
+[2024-08-17 19:17:53,482: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[af6adfea-7fb6-4672-a0d1-5957e382cf9b] received
+[2024-08-17 19:17:53,488: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[fdfbc9bc-aa59-4808-8d7b-2d7071373e9a] received
+[2024-08-17 19:17:53,514: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[82ab81b0-97ca-4067-9dba-ab4f82675770] received
+[2024-08-17 19:17:53,519: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[879d6059-ed29-4ed3-9fb7-e46d23728a46] received
+[2024-08-17 19:17:53,526: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[15fd0db0-01d6-4f64-947b-9b08a63ef4e7] received
+[2024-08-17 19:17:53,537: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[f6ee4cc4-c9f7-4241-bd45-24f6eb0799ff] received
+[2024-08-17 19:17:53,546: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[983a1b88-b228-4f81-9b97-b340fdadfe0b] received
+[2024-08-17 19:17:53,556: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[a93c16e7-eddc-4456-ab76-ea4a0496a57f] received
+[2024-08-17 19:17:53,566: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[db113c5b-b3e3-4320-9367-9193ca4e5586] received
+[2024-08-17 19:17:54,367: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:17:55,081: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:17:55,810: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:17:56,621: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:17:57,199: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:17:57,950: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:17:58,668: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:17:59,483: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:00,204: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:00,816: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:01,534: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:02,251: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:02,967: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:03,698: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:03,985: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:18:03,986: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[af6adfea-7fb6-4672-a0d1-5957e382cf9b] succeeded in 10.503425585000059s: None
+[2024-08-17 19:18:04,815: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:05,628: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:06,351: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:07,062: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:07,678: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:08,285: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:08,965: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:09,622: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:10,339: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:11,055: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:11,772: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:12,451: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:13,456: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:14,166: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:14,844: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:15,560: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:16,228: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:16,892: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:17,506: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:18,166: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:18,940: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:19,552: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:20,271: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:20,993: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:21,782: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:22,627: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:23,345: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:23,563: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:18:23,565: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[fdfbc9bc-aa59-4808-8d7b-2d7071373e9a] succeeded in 19.576757470000075s: None
+[2024-08-17 19:18:23,581: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[66b22fd2-ef8d-4d1e-8710-192c471e0e93] received
+[2024-08-17 19:18:24,472: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:24,675: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:18:24,676: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[82ab81b0-97ca-4067-9dba-ab4f82675770] succeeded in 1.1093685069999992s: None
+[2024-08-17 19:18:24,686: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[ee5a2c86-bd4a-4744-a73f-14460dd7908f] received
+[2024-08-17 19:18:25,435: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:25,649: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:18:25,650: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[879d6059-ed29-4ed3-9fb7-e46d23728a46] succeeded in 0.9716448209999271s: None
+[2024-08-17 19:18:25,660: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[aa6c4dcb-6752-415b-8a3d-881445139586] received
+[2024-08-17 19:18:27,034: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:27,199: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:18:27,199: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[15fd0db0-01d6-4f64-947b-9b08a63ef4e7] succeeded in 1.5483364920000895s: None
+[2024-08-17 19:18:27,216: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[71252bb4-fd3b-4740-b6a9-861fd24099ae] received
+[2024-08-17 19:18:28,054: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:28,205: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:18:28,211: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[f6ee4cc4-c9f7-4241-bd45-24f6eb0799ff] succeeded in 1.0104919610000707s: None
+[2024-08-17 19:18:28,332: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[e53a9a2f-7dd8-4d9d-98d2-5ff78b2f138f] received
+[2024-08-17 19:18:29,283: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:29,550: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:18:29,551: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[983a1b88-b228-4f81-9b97-b340fdadfe0b] succeeded in 1.3268435310000086s: None
+[2024-08-17 19:18:29,574: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[509d0f6f-0429-4aa4-a332-f1f83c2bdc0d] received
+[2024-08-17 19:18:30,505: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:30,756: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:18:30,757: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[a93c16e7-eddc-4456-ab76-ea4a0496a57f] succeeded in 1.205212405999987s: None
+[2024-08-17 19:18:30,767: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[5f6cb0f1-680f-45c0-a4c6-d17f466f9faa] received
+[2024-08-17 19:18:31,941: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:32,136: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:18:32,136: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[db113c5b-b3e3-4320-9367-9193ca4e5586] succeeded in 1.3779358399999637s: None
+[2024-08-17 19:18:32,147: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[ae8ae8f8-9fdf-4fe5-9215-c8a242735910] received
+[2024-08-17 19:18:33,283: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:34,101: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:34,840: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:35,633: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:36,359: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:37,054: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:37,884: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:38,603: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:39,318: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:39,933: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:40,752: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:41,468: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:42,083: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:42,802: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:43,619: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:44,234: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:44,956: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:45,667: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:46,388: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:47,203: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:47,820: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:48,535: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:49,457: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:50,174: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:50,830: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:51,607: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:52,324: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:52,437: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:18:52,438: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[9c39b3a7-9f1e-4994-bc4b-10657172105b] succeeded in 20.300269090999905s: None
+[2024-08-17 19:18:52,447: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[bcd62f2c-aa49-417a-93f9-cf9c688e0d28] received
+[2024-08-17 19:18:53,347: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:53,429: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:18:53,430: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[66b22fd2-ef8d-4d1e-8710-192c471e0e93] succeeded in 0.9906472090000307s: None
+[2024-08-17 19:18:53,439: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[08d86639-1246-4b54-9325-b57c6b6ad97b] received
+[2024-08-17 19:18:54,269: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:54,597: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:18:54,598: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[ee5a2c86-bd4a-4744-a73f-14460dd7908f] succeeded in 1.16669591699997s: None
+[2024-08-17 19:18:54,613: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[6c00c55c-0958-4905-9aa7-ff8ce767f44c] received
+[2024-08-17 19:18:55,501: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:55,739: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:18:55,740: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[aa6c4dcb-6752-415b-8a3d-881445139586] succeeded in 1.1408618939999542s: None
+[2024-08-17 19:18:55,750: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[540702c9-f43a-43cd-9b1b-b55476e6d42d] received
+[2024-08-17 19:18:56,507: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:56,742: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:18:56,742: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[71252bb4-fd3b-4740-b6a9-861fd24099ae] succeeded in 1.000654270000041s: None
+[2024-08-17 19:18:56,754: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[7ef548ce-ce90-447e-a7e6-235ec5fdf71e] received
+[2024-08-17 19:18:57,446: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:57,645: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:18:57,646: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[e53a9a2f-7dd8-4d9d-98d2-5ff78b2f138f] succeeded in 0.9018081489999759s: None
+[2024-08-17 19:18:57,665: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[7850b830-8425-4bbf-81f0-ee9e8dfc10f7] received
+[2024-08-17 19:18:58,419: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:58,665: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:18:58,666: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[509d0f6f-0429-4aa4-a332-f1f83c2bdc0d] succeeded in 1.0181772900000396s: None
+[2024-08-17 19:18:58,698: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[156befaf-f381-4bdf-a960-7160e723d0b7] received
+[2024-08-17 19:18:59,487: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:18:59,753: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:18:59,754: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[5f6cb0f1-680f-45c0-a4c6-d17f466f9faa] succeeded in 1.086398522999957s: None
+[2024-08-17 19:18:59,788: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[3e6a2b74-419a-42a8-be1e-eacc07687aca] received
+[2024-08-17 19:19:00,721: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:01,024: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:01,026: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[ae8ae8f8-9fdf-4fe5-9215-c8a242735910] succeeded in 1.2699188289999483s: None
+[2024-08-17 19:19:01,050: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[e226bae6-2da3-46ec-bba5-00fc90c2ac93] received
+[2024-08-17 19:19:02,878: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:03,106: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:03,107: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[bcd62f2c-aa49-417a-93f9-cf9c688e0d28] succeeded in 2.072449364000022s: None
+[2024-08-17 19:19:03,120: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[13004f4d-7a6a-43cc-a978-b1b59475cb47] received
+[2024-08-17 19:19:04,006: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:04,246: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:04,247: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[08d86639-1246-4b54-9325-b57c6b6ad97b] succeeded in 1.13869932099999s: None
+[2024-08-17 19:19:04,257: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[efe4e4c0-9685-4ce8-b501-705617930d06] received
+[2024-08-17 19:19:05,003: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:05,241: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:05,242: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[6c00c55c-0958-4905-9aa7-ff8ce767f44c] succeeded in 0.9936758529998997s: None
+[2024-08-17 19:19:05,253: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[16d40a33-82f4-4231-be36-34793991540b] received
+[2024-08-17 19:19:06,079: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:06,300: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:06,301: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[540702c9-f43a-43cd-9b1b-b55476e6d42d] succeeded in 1.056822808999982s: None
+[2024-08-17 19:19:06,312: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[4641cf92-c5ff-4ea5-8fda-6827df5cbde0] received
+[2024-08-17 19:19:07,260: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:07,489: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:07,490: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[7ef548ce-ce90-447e-a7e6-235ec5fdf71e] succeeded in 1.187060742999961s: None
+[2024-08-17 19:19:07,498: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[52a2c6cb-e0ec-416e-a0ef-cb07455fe44a] received
+[2024-08-17 19:19:08,196: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:08,357: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:08,358: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[7850b830-8425-4bbf-81f0-ee9e8dfc10f7] succeeded in 0.8671653760000027s: None
+[2024-08-17 19:19:08,366: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[f959ddf1-4e8c-443c-ae89-d04f2913f01c] received
+[2024-08-17 19:19:09,208: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:09,435: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:09,437: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[156befaf-f381-4bdf-a960-7160e723d0b7] succeeded in 1.0770668609999348s: None
+[2024-08-17 19:19:09,445: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[1688fd36-eeef-4252-8da7-0fcbb63c3740] received
+[2024-08-17 19:19:10,246: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:10,420: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:10,421: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[3e6a2b74-419a-42a8-be1e-eacc07687aca] succeeded in 0.9828876299999365s: None
+[2024-08-17 19:19:10,431: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[829d2b08-5c25-43df-8535-4ac1b09e027f] received
+[2024-08-17 19:19:11,270: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:11,390: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:11,391: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[e226bae6-2da3-46ec-bba5-00fc90c2ac93] succeeded in 0.9678630139999314s: None
+[2024-08-17 19:19:11,398: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[8f15cce4-0d26-4c32-983f-1430043ba26e] received
+[2024-08-17 19:19:12,291: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:12,431: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:12,432: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[13004f4d-7a6a-43cc-a978-b1b59475cb47] succeeded in 1.039978832000088s: None
+[2024-08-17 19:19:12,439: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[652d8363-cffb-49fc-87e4-1c86711ad0a4] received
+[2024-08-17 19:19:13,315: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:13,513: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:13,516: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[efe4e4c0-9685-4ce8-b501-705617930d06] succeeded in 1.083265277999999s: None
+[2024-08-17 19:19:13,534: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[d2cd19ce-fdc6-49ed-bfc7-0852f7a87954] received
+[2024-08-17 19:19:14,445: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:14,584: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:14,584: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[16d40a33-82f4-4231-be36-34793991540b] succeeded in 1.0660953899999868s: None
+[2024-08-17 19:19:14,591: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[e9aef3c7-ee77-4276-9e21-c99eb4f6dbf5] received
+[2024-08-17 19:19:15,466: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:15,614: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:15,615: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[4641cf92-c5ff-4ea5-8fda-6827df5cbde0] succeeded in 1.0295971440000358s: None
+[2024-08-17 19:19:15,624: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[f9e5e883-5f82-4c5b-9bbb-7e6838d8700c] received
+[2024-08-17 19:19:16,490: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:16,645: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:16,646: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[52a2c6cb-e0ec-416e-a0ef-cb07455fe44a] succeeded in 1.0299941100000751s: None
+[2024-08-17 19:19:16,655: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[a51c890c-e16c-4e5b-b624-f37d5f8ccaf2] received
+[2024-08-17 19:19:17,719: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:17,813: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:17,814: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[f959ddf1-4e8c-443c-ae89-d04f2913f01c] succeeded in 1.166471243999922s: None
+[2024-08-17 19:19:17,821: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[e53a86c8-1ece-45c6-81a4-3e431d9a1ff9] received
+[2024-08-17 19:19:18,641: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:18,798: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:18,798: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[1688fd36-eeef-4252-8da7-0fcbb63c3740] succeeded in 0.9828048869999293s: None
+[2024-08-17 19:19:18,805: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[b61848c0-4423-4524-a2cb-21581cbe061c] received
+[2024-08-17 19:19:19,666: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:19,805: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:19,806: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[829d2b08-5c25-43df-8535-4ac1b09e027f] succeeded in 1.0058994409999968s: None
+[2024-08-17 19:19:19,813: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[cc5ff701-ece2-485c-b020-effae251145e] received
+[2024-08-17 19:19:20,599: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:20,814: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:20,815: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[8f15cce4-0d26-4c32-983f-1430043ba26e] succeeded in 1.00816121999992s: None
+[2024-08-17 19:19:21,713: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:21,911: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:21,912: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[652d8363-cffb-49fc-87e4-1c86711ad0a4] succeeded in 1.0958564539999998s: None
+[2024-08-17 19:19:22,841: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:22,998: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:22,998: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[d2cd19ce-fdc6-49ed-bfc7-0852f7a87954] succeeded in 1.0846342720000166s: None
+[2024-08-17 19:19:24,273: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:24,449: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:24,450: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[e9aef3c7-ee77-4276-9e21-c99eb4f6dbf5] succeeded in 1.450338257999988s: None
+[2024-08-17 19:19:25,194: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:25,391: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:25,392: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[f9e5e883-5f82-4c5b-9bbb-7e6838d8700c] succeeded in 0.9401647540000795s: None
+[2024-08-17 19:19:26,325: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:26,520: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:26,520: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[a51c890c-e16c-4e5b-b624-f37d5f8ccaf2] succeeded in 1.127023071999929s: None
+[2024-08-17 19:19:27,447: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:27,552: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:27,552: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[e53a86c8-1ece-45c6-81a4-3e431d9a1ff9] succeeded in 1.0299114969999437s: None
+[2024-08-17 19:19:28,377: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:28,538: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:28,542: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[b61848c0-4423-4524-a2cb-21581cbe061c] succeeded in 0.9880695070000911s: None
+[2024-08-17 19:19:29,497: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-17 19:19:29,656: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-17 19:19:29,657: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[cc5ff701-ece2-485c-b020-effae251145e] succeeded in 1.1131251360000078s: None
+[2024-08-25 09:50:51,846: INFO/MainProcess] Connected to redis://127.0.0.1:6379/0
+[2024-08-25 09:50:51,862: INFO/MainProcess] mingle: searching for neighbors
+[2024-08-25 09:50:52,920: INFO/MainProcess] mingle: all alone
+[2024-08-25 09:50:53,033: INFO/MainProcess] celery@chenhuadeMacBook-Pro.local ready.
+[2024-08-25 10:07:33,828: INFO/MainProcess] Task tasks.dateset_document_split_task.task[e4e2238b-dc69-4b67-9857-ff376b18e944] received
+[2024-08-25 10:07:34,241: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[dc20a731-603a-4c02-92d7-79efeb50bf5e] received
+[2024-08-25 10:07:34,333: WARNING/ForkPoolWorker-1] exec dateset_document_split_task success.
+[2024-08-25 10:07:34,335: INFO/ForkPoolWorker-1] Task tasks.dateset_document_split_task.task[e4e2238b-dc69-4b67-9857-ff376b18e944] succeeded in 0.49142400099992756s: None
+[2024-08-25 10:07:46,903: INFO/ForkPoolWorker-1] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+[2024-08-25 10:07:46,909: WARNING/ForkPoolWorker-1] exec dateset_segment_embed_task error. Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-xxxx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+[2024-08-25 10:07:46,911: INFO/ForkPoolWorker-1] Task tasks.dateset_segment_embed_task.task[dc20a731-603a-4c02-92d7-79efeb50bf5e] succeeded in 2.7704636830000027s: None
+[2024-08-25 10:09:06,204: INFO/MainProcess] Connected to redis://127.0.0.1:6379/0
+[2024-08-25 10:09:06,230: INFO/MainProcess] mingle: searching for neighbors
+[2024-08-25 10:09:07,380: INFO/MainProcess] mingle: all alone
+[2024-08-25 10:09:07,606: INFO/MainProcess] celery@chenhuadeMacBook-Pro.local ready.
+[2024-08-25 10:09:17,096: INFO/MainProcess] Task tasks.dateset_document_split_task.task[521fbfbd-a7d8-421e-8ec0-b04b37260e63] received
+[2024-08-25 10:09:17,930: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[5675db13-e54b-4282-9dce-dec6fe0a8446] received
+[2024-08-25 10:09:17,965: WARNING/ForkPoolWorker-2] exec dateset_document_split_task success.
+[2024-08-25 10:09:17,966: INFO/ForkPoolWorker-2] Task tasks.dateset_document_split_task.task[521fbfbd-a7d8-421e-8ec0-b04b37260e63] succeeded in 0.8656495799999995s: None
+[2024-08-25 10:09:28,283: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:09:29,202: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:09:29,470: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-25 10:09:29,472: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[5675db13-e54b-4282-9dce-dec6fe0a8446] succeeded in 2.0282433149999974s: None
+[2024-08-25 10:11:48,003: INFO/MainProcess] Task tasks.dateset_document_split_task.task[5afc902b-17f0-4d54-a98b-9e1aab90d8fe] received
+[2024-08-25 10:11:49,789: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[ec41b4d4-c0d5-4257-a972-e292f36fcae0] received
+[2024-08-25 10:11:49,888: WARNING/ForkPoolWorker-2] exec dateset_document_split_task success.
+[2024-08-25 10:11:49,891: INFO/ForkPoolWorker-2] Task tasks.dateset_document_split_task.task[5afc902b-17f0-4d54-a98b-9e1aab90d8fe] succeeded in 1.8851039679999815s: None
+[2024-08-25 10:12:00,558: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:01,477: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:02,104: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:03,015: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:03,735: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:04,552: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:05,369: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:06,124: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:07,011: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:07,240: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-25 10:12:07,241: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[ec41b4d4-c0d5-4257-a972-e292f36fcae0] succeeded in 7.467655282999999s: None
+[2024-08-25 10:12:18,331: INFO/MainProcess] Task tasks.dateset_document_split_task.task[7a5853f4-cbde-40d1-ad7b-6c2793dddf8f] received
+[2024-08-25 10:12:18,421: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[a77203b0-5c15-4fb0-8c80-8f6f7b9b3be9] received
+[2024-08-25 10:12:18,440: WARNING/ForkPoolWorker-2] exec dateset_document_split_task success.
+[2024-08-25 10:12:18,441: INFO/ForkPoolWorker-2] Task tasks.dateset_document_split_task.task[7a5853f4-cbde-40d1-ad7b-6c2793dddf8f] succeeded in 0.10837555499998075s: None
+[2024-08-25 10:12:28,179: INFO/MainProcess] Task tasks.dateset_document_split_task.task[bffad5be-0047-42be-a70c-637c41bbeb38] received
+[2024-08-25 10:12:29,033: INFO/MainProcess] Task tasks.dateset_segment_embed_task.task[7902c807-c27c-4dde-aa2d-c5bd27b8f47a] received
+[2024-08-25 10:12:29,064: WARNING/ForkPoolWorker-2] exec dateset_document_split_task success.
+[2024-08-25 10:12:29,065: INFO/ForkPoolWorker-2] Task tasks.dateset_document_split_task.task[bffad5be-0047-42be-a70c-637c41bbeb38] succeeded in 0.8768907070000012s: None
+[2024-08-25 10:12:29,951: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:30,769: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:31,484: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:32,186: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:32,919: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:33,658: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:34,454: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:35,168: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:35,992: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:36,910: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:37,630: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:38,344: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:39,469: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:40,187: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:40,803: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:41,517: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:42,234: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:43,053: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:43,667: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:44,337: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:45,621: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:46,541: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:47,254: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:49,199: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:50,018: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:50,632: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:51,350: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:51,650: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-25 10:12:51,652: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[a77203b0-5c15-4fb0-8c80-8f6f7b9b3be9] succeeded in 22.585776941000006s: None
+[2024-08-25 10:12:52,475: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:53,191: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:53,851: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:54,629: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:55,347: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:56,019: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:57,062: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:58,315: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:12:59,295: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:13:00,158: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:13:00,865: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:13:01,592: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:13:02,408: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:13:03,208: INFO/ForkPoolWorker-2] HTTP Request: POST https://api.openai-proxy.com/v1/embeddings "HTTP/1.1 200 OK"
+[2024-08-25 10:13:03,565: WARNING/ForkPoolWorker-2] exec dateset_segment_embed_task success.
+[2024-08-25 10:13:03,566: INFO/ForkPoolWorker-2] Task tasks.dateset_segment_embed_task.task[7902c807-c27c-4dde-aa2d-c5bd27b8f47a] succeeded in 11.911521788999977s: None
+[2025-03-13 15:40:49,834: CRITICAL/MainProcess] Unrecoverable error: AttributeError("Can't pickle local object 'init_app.<locals>.FlaskTask'")
+Traceback (most recent call last):
+  File "D:\anaconda\envs\pro\lib\site-packages\celery\worker\worker.py", line 202, in start
+    self.blueprint.start(self)
+  File "D:\anaconda\envs\pro\lib\site-packages\celery\bootsteps.py", line 116, in start
+    step.start(parent)
+  File "D:\anaconda\envs\pro\lib\site-packages\celery\bootsteps.py", line 365, in start
+    return self.obj.start()
+  File "D:\anaconda\envs\pro\lib\site-packages\celery\concurrency\base.py", line 130, in start
+    self.on_start()
+  File "D:\anaconda\envs\pro\lib\site-packages\celery\concurrency\prefork.py", line 109, in on_start
+    P = self._pool = Pool(processes=self.limit,
+  File "D:\anaconda\envs\pro\lib\site-packages\billiard\pool.py", line 1046, in __init__
+    self._create_worker_process(i)
+  File "D:\anaconda\envs\pro\lib\site-packages\billiard\pool.py", line 1158, in _create_worker_process
+    w.start()
+  File "D:\anaconda\envs\pro\lib\site-packages\billiard\process.py", line 120, in start
+    self._popen = self._Popen(self)
+  File "D:\anaconda\envs\pro\lib\site-packages\billiard\context.py", line 381, in _Popen
+    return Popen(process_obj)
+  File "D:\anaconda\envs\pro\lib\site-packages\billiard\popen_spawn_win32.py", line 81, in __init__
+    reduction.dump(process_obj, to_child)
+  File "D:\anaconda\envs\pro\lib\site-packages\billiard\reduction.py", line 98, in dump
+    ForkingPickler(file, protocol).dump(obj)
+AttributeError: Can't pickle local object 'init_app.<locals>.FlaskTask'
+[2025-03-13 15:43:26,903: INFO/MainProcess] Connected to redis://127.0.0.1:6379/0
+[2025-03-13 15:43:26,911: INFO/MainProcess] mingle: searching for neighbors
+[2025-03-13 15:43:28,845: INFO/MainProcess] mingle: all alone
+[2025-03-13 15:43:28,869: INFO/MainProcess] celery@LAPTOP-2LVRB6TF ready.

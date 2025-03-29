@@ -1,0 +1,17 @@
+flask
+flask-migrate
+flask-sqlalchemy
+flask-wtf
+gunicorn
+bs4
+python-dotenv
+openai
+psycopg2
+celery
+redis
+backports.tarfile
+pymilvus==2.4.4
+pymupdf
+python-docx
+pandas
+
